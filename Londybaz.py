@@ -79,9 +79,9 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●"
 print  """\033[1;91m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
-\033[1;96mAuthor  \033[1;93m: \033[1;92m Londaybaz
-\033[1;96mInstagram \033[1;93m: \033[1;92mFlowlarkon-ka-shoqen
-\033[1;96mFacebook  \033[1;93m: \033[1;92mLondaybaz
+\033[1;96mAuthor  \033[1;93m: \033[1;92mLONDAYBAZ
+\033[1;96mInstagram \033[1;93m: \033[1;92mFlowGAND KA SHOQEEN
+\033[1;96mFacebook  \033[1;93m: \033[1;92mLONDAYBAZ
 \033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/londaybaz0/londybaz
 \033[1;91m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●"""
 print " \x1b[1;93m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●"
